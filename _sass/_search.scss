@@ -54,3 +54,11 @@
     text-decoration: none;
   }
 }
+
+.darkmode--activated {
+  input {
+    &[type=text] {
+      color: $white;
+    }
+  }
+}
