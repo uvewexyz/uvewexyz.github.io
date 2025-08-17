@@ -2,6 +2,7 @@
 ---
 
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 html {
   font-size: 100%;
@@ -9,7 +10,9 @@ html {
 
 body {
   background: $white;
-  font-family: $sans-font-family;
+  // font-family: $sans-font-family;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.66666666667;
@@ -48,7 +51,9 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6 {
   margin: 01em 0 15px;
   color: $darkerGray;
-  font-family: $sans-font-family;
+  // font-family: $sans-font-family;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.66666666667;
 }
@@ -460,8 +465,10 @@ a[href^="#fnref:"] {
 .site-name {
   margin: 0;
   color: $darkGray;
-  font-family: $sans-font-family;
-  font-weight: 400;
+  // font-family: $sans-font-family;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 28px !important;
   letter-spacing: 01px;
 
@@ -488,7 +495,8 @@ a[href^="#fnref:"] {
 }
 
 nav {
-  font-family: $sans-font-family;
+  // font-family: $sans-font-family;
+  font-family: "Ubuntu", sans-serif;
   font-size: 18px !important;
 
   @include mobile {
