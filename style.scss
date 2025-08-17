@@ -467,10 +467,10 @@ a[href^="#fnref:"] {
   color: $darkGray;
   // font-family: $sans-font-family;
   font-family: "Noto Sans", sans-serif;
-  font-style: normal;
+  // font-style: normal;
   font-weight: 400;
   font-size: 28px !important;
-  letter-spacing: 01px;
+  // letter-spacing: 01px;
 
   a {
     &:hover {
