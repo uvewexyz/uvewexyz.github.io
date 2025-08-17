@@ -11,9 +11,9 @@ html {
 body {
   background: $white;
   // font-family: $sans-font-family;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 1.66666666667;
   color: $darkGray;
@@ -54,26 +54,26 @@ h1, h2, h3, h4, h5, h6 {
   // font-family: $sans-font-family;
   font-family: "Playfair Display", serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.66666666667;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   a {
     color: inherit;
   }
 }
 
-h2 {font-size: 28px;}
+h2 {font-size: 30px;}
 
-h3 {font-size: 24px;}
+h3 {font-size: 28px;}
 
-h4 {font-size: 20px;}
+h4 {font-size: 24px;}
 
-h5 {font-size: 16px;}
+h5 {font-size: 20px;}
 
-h6 {font-size: 14px;}
+h6 {font-size: 16px;}
 
 small, .text_small {font-size: 14px;}
 
@@ -466,9 +466,9 @@ a[href^="#fnref:"] {
   margin: 0;
   color: $darkGray;
   // font-family: $sans-font-family;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 28px !important;
   letter-spacing: 01px;
 
@@ -496,7 +496,7 @@ a[href^="#fnref:"] {
 
 nav {
   // font-family: $sans-font-family;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 18px !important;
 
   @include mobile {
