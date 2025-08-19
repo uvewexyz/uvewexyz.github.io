@@ -98,8 +98,6 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README.md
   - CNAME
 
 # Robots are welcome
